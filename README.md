@@ -5,9 +5,11 @@ Biologically-inspired STDP network for MNIST classification with energy efficien
 
 ## Current Issues
 
-- Most neurons biased to class 0 
-- High lateral inhibition (17.0) may be blocking learning
-- Spike activity higher than expected (energy paradox)
+**Learning Problems:**
+- 354/400 neurons biased to class 0, poor feature discrimination
+- Energy paradox: 252K spikes/sample vs 200 for PyTorch (higher, not lower)
+- Long training time? (1,989 seconds for 6K samples)
+
 
 ## Usage
 
@@ -19,3 +21,4 @@ jupyter notebook stdp_analysis.ipynb
 brian2, torch, numpy, matplotlib
 
 
+***Note***: Work in progress for academic discussion. Energy framework is pretty solid, accuracy needs improvement.
