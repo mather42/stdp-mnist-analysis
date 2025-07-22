@@ -22,3 +22,9 @@ brian2, torch, numpy, matplotlib
 
 
 ***Note***: Work in progress for academic discussion. Energy framework is pretty solid, accuracy needs improvement.
+
+### Acknowledgments
+Thanks to **Mehul** for mentorship and feedback.
+
+### License
+MIT
